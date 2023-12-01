@@ -22,6 +22,9 @@ if mamba installed:
 mamba install -c conda-forge hypso
 ```
 
+The 'clustering' example branch also needs pytables, which can be installed by:
+conda install pytables
+
 ## Pipeline (on Load)
 1. Load metadata from existing files `get_metainfo()`
 2. Gets "Raw Cube" (L1A) `get_raw_cube()`
